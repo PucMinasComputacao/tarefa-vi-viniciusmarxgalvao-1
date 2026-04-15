@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: darkgray;
+    color: red;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+}
+
+.hero {
+    text-align: center;
+  position: relative;
+}
+.hero img {
+    width: 100%;
+}
+
+.destaquecarros {
+  padding: 20px;
+}
+
+.h3 {
+  font-size: 40px;
+}
+
+.card img {
+  width: 100%;
+}
+.Categorias {
+  padding: 40px;
+  text-align: center;
+}
+
+.categoriatext {
+  font-size: 40px;
+}
+
+.Categorias_menu ul {
+  padding: 0;
+}
+.icones_semana {
+     padding: 20px;
+}
+
+.iconetext {
+  font-size: 40px;
+}
+
+.highlight {
+  position: relative;
+  text-align: center;
+}
+
+.highlight img {
+  width: 100%;
+}
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 15px;
+}
+.logo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: static;
+}
+.opala {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.evo_branco {
+    max-width: 600px;
+    width: 100%;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-size: 50px;
+    position: relative;
+    top: -40px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto; 
+    width: 100%;
+}
+
+.footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.logofooter {
+  width: 100px;
+}

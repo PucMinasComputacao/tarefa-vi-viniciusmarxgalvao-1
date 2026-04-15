@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/VnWYxZXQ)
 # Trabalho Prático - Semana 6
 
 Nessa atividade, como sempre, vamos evoluir o que foi feito na semana anterior. Fique atento para fazer o projeto da semana anterior e dar sequência nessa jornada.
@@ -9,18 +8,18 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Vinícius Marx Galvão
+- Matricula: 913852
+- Proposta de projeto escolhida: Um site sobre carros icônicos
+- Breve descrição sobre seu projeto: Meu site fica no público que gosta do mundo automotivo e é um site informacional, hobbies e entretenimento. Mostra os modelos mais desejados da atualidade, de diversas categorias e fala as curiosidades e especificações deles.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<Captura de tela 2026-04-11 195021.png>) 
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](<Captura de tela 2026-04-11 195204.png>)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 

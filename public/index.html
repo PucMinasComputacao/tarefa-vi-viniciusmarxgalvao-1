@@ -1,12 +1,148 @@
+<!-- versão bootstrap -->
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
+    <title> Sportives & Icons </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</>
-    <link rel="stylesheet" href="./css/style.css">
+
 </head>
-<body>
-    
+
+<body class="bg-body-secondary">
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Sports&Icons - início </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <header class="header bg-dark text-white text-center m-3 p-2 border-top border-2 border-primary-subtle rounded">
+        <h1 class="fw-bold"> Sportives & Icons</h1>
+
+        <h2 class="fst-italic"> Cars, Icons, Dreams! </h2>
+        <img src="Images/logo_site.webp" class="logo" alt="Carro esportivo">
+        <form class="mt-2">
+            <label>Usuário:</label>
+            <input type="text">
+            <label>Senha:</label>
+            <input type="password">
+            <button> Registro ou Login</button>
+        </form>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <img src="Images/images.jpg" class="evo_branco" alt="Carro esportivo">
+        </section>
+
+        <section class="destaquecarros">
+            <section class="container mt-4">
+                <h3 class="text-center mb-4">Em destaque:</h3>
+
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Images/bmwm5.jpg" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">BMW M5 F90</h5>
+                                <p class="card-text">2018-2023, BMW Group</p>
+                            </div>
+                         </div>
+                    </div>
+
+                     <div class="col-md-4">
+                        <div class="card">
+                            <img src="Images/alfa-romeo-giulia-quadrifoglio-drift.jpg" class="card-img-top">
+                            <div class="card-body">
+                            <h5 class="card-title">Alfa Romeo Giulia Quadrifoglio</h5>
+                            <p class="card-text">2016-2026, Italy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="Images/evox.webp" class="card-img-top">
+                            <div class="card-body">
+                            <h5 class="card-title">Lancer Evolution X</h5>
+                            <p class="card-text">2007-2015, Japan</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+</section>
+        </section>
+
+        <section class="Categorias">
+            <p class="categoriatext text-capitalize"> 
+                Categorias:
+            </p>
+            <nav class="Categorias_menu">
+                <ul>
+                    <li><a href="#">Esportivos</a></li>
+                    <li><a href="#">Superesportivos</a></li>
+                    <li><a href="#">Clássicos</a></li>
+                    <li><a href="#">Muscles</a></li>
+                    <li><a href="#">Eletrificados</a></li>
+                    <li><a href="#">JDM - Made in Japan</a></li>
+                    <li><a href="#">More</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="icones_semana"> 
+            <p class="iconetext text-capitalize">
+                 Ícones da Semana:
+            </p>
+            <article class="highlight">
+                <img src="Images/Chevrolet_Opala_SS_19744.jpg" class="opala">
+                <p> Sem dúvidas, este foi um dos modelos mais icônicos do mercado brasileiro.</p>
+            </article>
+        </section>
+      
+    </main>
+
+    <footer class="footer">
+        <p> Copyright 2026 Vinícius Marx Galvão</p>
+        <img src="Images/logo_site.webp" class="logofooter">
+        <p> Contato: </p>
+        <p> +55 00 90000-0000 </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
+
 </html>
