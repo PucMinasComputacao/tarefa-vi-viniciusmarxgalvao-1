@@ -15,7 +15,7 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-![alt text](public/images/Tela1.png<>) 
+![alt text](public/images/Tela1.png) 
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
