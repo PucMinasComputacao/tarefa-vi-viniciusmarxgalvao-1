@@ -15,11 +15,11 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
 
-![alt text](<Captura de tela 2026-04-11 195021.png>) 
+![alt text](public/images/Tela1.png<>) 
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
 
-![alt text](<Captura de tela 2026-04-11 195204.png>)
+![alt text](public/images/Tela2.png)
 
 
 (*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
